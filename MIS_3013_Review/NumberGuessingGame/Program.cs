@@ -5,11 +5,29 @@ Console.WriteLine("Welcome to our game!");
 
 Console.WriteLine("Please input the lower bound value (lowest value that could be guessed)? <<");
 string answer = Console.ReadLine();
-int lowerBound = int.Parse(answer);
+int lowerBound = ValidateInput(answer, "Invalid number, please input a proper lower bound >>");
+
+
+
+
+
+//try
+//{
+//    lowerBound = int.Parse(answer);
+//}
+//catch (FormatException ex)
+//{
+
+//    Console.WriteLine("Sorry, invalid input"); 
+//}
+//catch(Exception ex)
+//{
+//    Console.WriteLine($"No one knows what went wrong\n {ex.Message}");
+//}
 
 Console.WriteLine("Please input the upper bound value (highest value that could be guessed)? <<");
 answer = Console.ReadLine();
-int upperBound = int.Parse(answer);
+int upperBound = ValidateInput(answer, "Invalid number, please input a proper upper bound >>");
 
 for (int i = 0; i < int.MaxValue; i++)
 {
@@ -26,7 +44,7 @@ for (int i = 0; i < int.MaxValue; i++)
     {
         Console.WriteLine($"Please guess a number between {lowerBound.ToString("N0")} and {upperBound.ToString("N0")} <<");
         string usersGuess = Console.ReadLine();
-        guess = int.Parse(usersGuess);
+        guess = ValidateInput(answer, "Invalid number, please input a proper guess >>");
         //guess = Convert.ToInt32(guess);
         numberOfGuesses++;
         //numberOfGuesses = numberOfGuesses + 1;
@@ -74,3 +92,19 @@ for (int i = 0; i < int.MaxValue; i++)
     }
 }
 
+
+///<summary>This function takes a string and validates that it is an integer.  If it is not, it will display the message</summary>
+///
+///
+int ValidateInput(string? a, string message)
+{
+    int convertedValue = 0;
+    while (int.TryParse(a, out convertedValue) == false)
+    {
+        Console.WriteLine(message);
+        a = Console.ReadLine();
+
+    }
+
+    return convertedValue;
+}
