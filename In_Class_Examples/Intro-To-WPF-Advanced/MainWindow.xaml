@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:Intro_To_WPF_Advanced"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="#FFE35959">
-    <Grid>
+    <Grid Margin="0,0,-29,-16">
+        <Label Content="Sales Data Jan 2009" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" Height="65" Width="328" Background="#69F1D7D7" FontSize="36"/>
+        <ListBox x:Name="lstSales" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="118,121,118,65"/>
+        <ComboBox x:Name="cboPaymentType" HorizontalAlignment="Left" Margin="43,73,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboPaymentType_SelectionChanged"/>
+        <Label x:Name="lblCount" Content="" HorizontalAlignment="Left" Margin="236,397,0,0" VerticalAlignment="Top" Width="341"/>
+        <Label Content="Select a payment type" HorizontalAlignment="Left" Margin="24,43,0,0" VerticalAlignment="Top" Foreground="#FFFCFCFC" FontWeight="Bold"/>
 
     </Grid>
 </Window>

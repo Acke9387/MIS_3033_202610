@@ -41,6 +41,10 @@ namespace Intro_To_WPF_Advanced
         }
 
 
+        public override string ToString()
+        {
+            return $"{Name} bought {Product} in {City} for {Price:C} on {Transaction_date:d} using {Payment_Type}";
+        }
 
     }
 
