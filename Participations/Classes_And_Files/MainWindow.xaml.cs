@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,17 @@ namespace Classes_And_Files
         public MainWindow()
         {
             InitializeComponent();
+
+            //read in Toys.csv
+            string[] lines = File.ReadAllLines("Toys.csv");
+
+            foreach (var line in lines.Skip(1)) //skip the header line
+            {
+                //     0        1      2      3
+                //Manufacturer,Name,Price,Image
+
+                //split the line into parts
+            }
         }
     }
 }
