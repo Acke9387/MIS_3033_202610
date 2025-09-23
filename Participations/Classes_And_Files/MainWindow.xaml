@@ -19,6 +19,7 @@
         <Label Content="Image URL:" HorizontalAlignment="Left" Margin="126,172,0,0" VerticalAlignment="Top" Background="#CCFCFCFC"/>
         <TextBox x:Name="txtImageUrl" HorizontalAlignment="Left" Margin="236,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnAddToy" Content="Add Toy" HorizontalAlignment="Left" Margin="252,217,0,0" VerticalAlignment="Top" Height="32" Width="67" IsDefault="True"/>
+        <Image x:Name="imgToy" HorizontalAlignment="Left" Height="147" Margin="366,82,0,0" VerticalAlignment="Top" Width="166"/>
 
     </Grid>
 </Window>
