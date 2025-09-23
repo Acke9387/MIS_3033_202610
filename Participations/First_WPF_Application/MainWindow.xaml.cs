@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.DirectoryServices.ActiveDirectory;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -38,12 +39,12 @@ namespace First_WPF_Application
 
         private void btnCalculate_MouseEnter(object sender, MouseEventArgs e)
         {
-
+            wndMain.Background = Brushes.LightBlue;
         }
 
         private void btnCalculate_MouseLeave(object sender, MouseEventArgs e)
         {
-
+            wndMain.Background = Brushes.DarkRed;
         }
     }
 }
