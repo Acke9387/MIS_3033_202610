@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using Newtonsoft.Json;
+using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +21,16 @@ namespace Intro_to_JSON
         public MainWindow()
         {
             InitializeComponent();
+
+            string fileAsJson = File.ReadAllText("MOCK_DATA.json");
+
+            List<Employee> employees = JsonConvert.DeserializeObject<List<Employee>>(fileAsJson);
+            
+            lstData.ItemsSource = employees;
+
+
+            string cSharpToJSON = JsonConvert.SerializeObject(employees, Formatting.Indented);
+
         }
     }
 }

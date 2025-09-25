@@ -28,5 +28,9 @@ namespace Intro_to_JSON
             city = string.Empty;
         }
 
+        public override string ToString()
+        {
+            return $"{id}: {first_name} {last_name}, {email}";
+        }
     }
 }
