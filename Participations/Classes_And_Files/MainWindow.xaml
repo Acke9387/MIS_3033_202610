@@ -11,15 +11,17 @@
     </Window.Background>
     <Grid>
         <Label Content="Toyland" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <ListBox x:Name="lstToys" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="541,0,0,0"/>
+        <ListBox x:Name="lstToys" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="541,0,0,0" MouseDoubleClick="lstToys_MouseDoubleClick" />
         <Label Content="Manufacturer:" HorizontalAlignment="Left" Margin="126,99,0,0" VerticalAlignment="Top" Background="#CCFCFCFC"/>
         <TextBox x:Name="txtManufacturer" HorizontalAlignment="Left" Margin="236,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Name:" HorizontalAlignment="Left" Margin="126,137,0,0" VerticalAlignment="Top" Background="#CCFCFCFC"/>
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="236,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Image URL:" HorizontalAlignment="Left" Margin="126,172,0,0" VerticalAlignment="Top" Background="#CCFCFCFC"/>
         <TextBox x:Name="txtImageUrl" HorizontalAlignment="Left" Margin="236,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnAddToy" Content="Add Toy" HorizontalAlignment="Left" Margin="252,217,0,0" VerticalAlignment="Top" Height="32" Width="67" IsDefault="True"/>
+        <Button x:Name="btnAddToy" Content="Add Toy" HorizontalAlignment="Left" Margin="262,293,0,0" VerticalAlignment="Top" Height="32" Width="68" IsDefault="True" Click="btnAddToy_Click"/>
         <Image x:Name="imgToy" HorizontalAlignment="Left" Height="147" Margin="366,82,0,0" VerticalAlignment="Top" Width="166"/>
+        <Label Content="Price:" HorizontalAlignment="Left" Margin="126,213,0,0" VerticalAlignment="Top" Background="#CCFCFCFC"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="236,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

@@ -31,14 +31,20 @@ namespace Classes_And_Files
             Aisle = string.Empty;
         }
 
-        
+
+        /// <summary>
+        /// Method to generate the aisle code based on the first letter of the manufacturer and the price.
+        /// </summary>
+        /// <returns>The aisle of the toy</returns>
         public string GetAisle()
         {
-            //
-            //Aisle = ... logic to determine aisle
-            ///
+            Aisle = Manufacturer.ToUpper()[0].ToString() + Price.ToString().Replace(".","");
             return Aisle;
         }
 
+        public override string ToString()
+        {
+            return $"{Manufacturer} - {Name}";
+        }
     }
 }
