@@ -27,5 +27,10 @@ namespace JSON_From_A_File
             Color = string.Empty;
         }
 
+        public override string ToString()
+        {
+            return $"{Make} {Model} car made in {Year} is a {Color} color";
+        }
+
     }
 }

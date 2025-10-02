@@ -11,9 +11,10 @@
     </Window.Background>
     <Grid>
         <ListBox x:Name="lstData" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="476,0,0,0" Background="#CCFFFFFF"/>
-        <ComboBox x:Name="cboColors" HorizontalAlignment="Left" Margin="29,149,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cboColors" HorizontalAlignment="Left" Margin="29,149,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboColors_SelectionChanged"/>
         <Label Content="Car Owner Data" HorizontalAlignment="Left" Margin="168,24,0,0" VerticalAlignment="Top" Height="50" Width="188" Background="#CCFFFFFF" FontSize="24"/>
         <Label Content="Filter by color" HorizontalAlignment="Left" Margin="48,118,0,0" VerticalAlignment="Top" Background="#FFEEE7E7"/>
+        <Button x:Name="btnSave" Content="Save Data" HorizontalAlignment="Left" Margin="212,251,0,0" VerticalAlignment="Top" Height="39" Width="113" Background="#CCDDDDDD" Click="btnSave_Click"/>
 
     </Grid>
 </Window>
