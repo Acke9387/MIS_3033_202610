@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro-To-WPF-Advanced", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro_to_JSON", "Intro_to_JSON\Intro_to_JSON.csproj", "{7DA7F21B-207A-4070-9C6D-C351F4A3CCAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_Rick_and_Morty", "JSON_Rick_and_Morty\JSON_Rick_and_Morty.csproj", "{5DC86EDE-1773-4A09-8307-C31E3D0D4744}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7DA7F21B-207A-4070-9C6D-C351F4A3CCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DA7F21B-207A-4070-9C6D-C351F4A3CCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DA7F21B-207A-4070-9C6D-C351F4A3CCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC86EDE-1773-4A09-8307-C31E3D0D4744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC86EDE-1773-4A09-8307-C31E3D0D4744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC86EDE-1773-4A09-8307-C31E3D0D4744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC86EDE-1773-4A09-8307-C31E3D0D4744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
