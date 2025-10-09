@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_And_Files", "Classe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_From_A_File", "JSON_From_A_File\JSON_From_A_File.csproj", "{5A034FFA-BBC5-4B55-A206-B22480D7B4F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_Game_of_Thrones_Quotes", "JSON_Game_of_Thrones_Quotes\JSON_Game_of_Thrones_Quotes.csproj", "{74BF012C-E3FC-47B5-8944-CA95E8F4E0E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5A034FFA-BBC5-4B55-A206-B22480D7B4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A034FFA-BBC5-4B55-A206-B22480D7B4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A034FFA-BBC5-4B55-A206-B22480D7B4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BF012C-E3FC-47B5-8944-CA95E8F4E0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BF012C-E3FC-47B5-8944-CA95E8F4E0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BF012C-E3FC-47B5-8944-CA95E8F4E0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BF012C-E3FC-47B5-8944-CA95E8F4E0E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
