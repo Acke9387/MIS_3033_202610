@@ -12,10 +12,10 @@
     <Grid>
         <TextBlock x:Name="tbQuote" HorizontalAlignment="Left" Margin="400,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="101" Width="343" Background="#999D0404" Foreground="White" TextAlignment="Center"/>
         <ListBox x:Name="lstQuotes" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,478,76" Opacity="0.5"/>
-        <Button x:Name="btnSave" HorizontalAlignment="Left" Margin="117,361,0,0" VerticalAlignment="Top" Height="51" Width="52" Background="#FFDDDDDD">
+        <Button x:Name="btnSave" HorizontalAlignment="Left" Margin="117,361,0,0" VerticalAlignment="Top" Height="51" Width="52" Background="#FFDDDDDD" Click="btnSave_Click">
             <Image Source="https://icons.veryicon.com/png/o/miscellaneous/utility/save-44.png" Stretch="Uniform"/>
         </Button>
-        <Button x:Name="btnRefresh" HorizontalAlignment="Left" Margin="517,349,0,0" VerticalAlignment="Top" Height="63" Width="70">
+        <Button x:Name="btnRefresh" HorizontalAlignment="Left" Margin="517,349,0,0" VerticalAlignment="Top" Height="63" Width="70" Click="btnRefresh_Click">
             <Image Source="https://cdn1.iconfinder.com/data/icons/vibrancie-action/30/action_011-sync-fetch-arrow-update-512.png" Stretch="Uniform" />
         </Button>
 
