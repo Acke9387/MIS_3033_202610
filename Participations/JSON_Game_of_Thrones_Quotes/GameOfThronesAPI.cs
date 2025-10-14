@@ -15,7 +15,7 @@ namespace JSON_Game_of_Thrones_Quotes
 
         public override string ToString()
         {
-            return $"\"{sentence}\"\n{character.name}";
+            return $"\"{sentence}\"\n\t-{character.name}";
         }
     }
 
