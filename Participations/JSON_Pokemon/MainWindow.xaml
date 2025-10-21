@@ -1,0 +1,21 @@
+﻿<Window x:Class="JSON_Pokemon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_Pokemon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="cboPokemon" HorizontalAlignment="Left" Margin="72,109,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboPokemon_SelectionChanged"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="419,123,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="523,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Height" HorizontalAlignment="Left" Margin="419,173,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtHeight" HorizontalAlignment="Left" Margin="523,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Weight" HorizontalAlignment="Left" Margin="419,230,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtWeight" HorizontalAlignment="Left" Margin="523,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnDance" Content="Dance" HorizontalAlignment="Left" Margin="291,350,0,0" VerticalAlignment="Top" Click="btnDance_Click" IsEnabled="False"/>
+        <Image x:Name="imgPokemon" Height="100" Width="100" Margin="241,230,459,104"/>
+
+    </Grid>
+</Window>
