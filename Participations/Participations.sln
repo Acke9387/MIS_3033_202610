@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_Game_of_Thrones_Quotes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_Pokemon", "JSON_Pokemon\JSON_Pokemon.csproj", "{2A0DE881-E049-4715-BA61-D67D2EAAF9BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database_Selecting_Data", "Database_Selecting_Data\Database_Selecting_Data.csproj", "{F306EB63-3468-4F14-82EB-F8F4637BAE1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database_Associate_Populating", "Database_Associate_Populating\Database_Associate_Populating.csproj", "{D6EAF611-F4C4-482C-B210-5668ECA50C41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{2A0DE881-E049-4715-BA61-D67D2EAAF9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A0DE881-E049-4715-BA61-D67D2EAAF9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A0DE881-E049-4715-BA61-D67D2EAAF9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F306EB63-3468-4F14-82EB-F8F4637BAE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F306EB63-3468-4F14-82EB-F8F4637BAE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F306EB63-3468-4F14-82EB-F8F4637BAE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F306EB63-3468-4F14-82EB-F8F4637BAE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EAF611-F4C4-482C-B210-5668ECA50C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EAF611-F4C4-482C-B210-5668ECA50C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EAF611-F4C4-482C-B210-5668ECA50C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EAF611-F4C4-482C-B210-5668ECA50C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
